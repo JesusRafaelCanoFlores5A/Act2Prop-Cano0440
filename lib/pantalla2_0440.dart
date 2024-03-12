@@ -14,10 +14,11 @@ class Pantalla2_0440 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
+          color: Color(0xff90a4ff),
           width: double.infinity,
           height: 300,
           child: Card(
-            color: Color(0xff90a4ff),
+            color: Color(0xffb7c5ff),
             margin: EdgeInsets.all(32),
             child: Padding(
               padding: EdgeInsets.all(16),
