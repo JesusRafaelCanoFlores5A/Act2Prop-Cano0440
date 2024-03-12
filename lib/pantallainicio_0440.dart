@@ -17,11 +17,19 @@ class Pantallainicio_0440 extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                primary: Colors.deepOrange, // background
+                onPrimary: Colors.white, // foreground
+              ),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1_0440");
               }, //Fin onpressed
               child: const Text("Ejemplo Card")),
           ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                primary: Colors.indigo, // background
+                onPrimary: Colors.white, // foreground
+              ),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0440");
               }, //Fin onpressed
