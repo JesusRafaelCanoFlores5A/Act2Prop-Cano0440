@@ -33,7 +33,7 @@ class Pantallainicio_0440 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0440");
               }, //Fin onpressed
-              child: const Text("Ejemplo Card Container")),
+              child: const Text("Ejemplo Card y Container")),
         ], //Fin de niños
       )),
     ); //Fin Scaffold
