@@ -10,26 +10,21 @@ class Pantalla2_0440 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla2 Cano 0440'),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.green,
       ),
       body: Center(
         child: Container(
-          color: Color(0xff90a4ff),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xffb7c5ff),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                "Página 2",
-                style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.indigo,
-                    fontWeight: FontWeight.bold),
-              ),
-            ),
+          color: Colors.green,
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Pantalla 2 Cano 0440',
+            style: TextStyle(
+                fontSize: 30, color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
       ),

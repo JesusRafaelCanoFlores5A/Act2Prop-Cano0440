@@ -10,7 +10,7 @@ class Pantallainicio_0440 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Página incial Cano 0440"),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.teal,
       ),
       body: Center(
           child: Column(
@@ -18,22 +18,31 @@ class Pantallainicio_0440 extends StatelessWidget {
         children: [
           ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.deepOrange, // background
+                primary: Colors.red, // background
                 onPrimary: Colors.white, // foreground
               ),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1_0440");
               }, //Fin onpressed
-              child: const Text("Ejemplo Card")),
+              child: const Text("Ir a Pantalla 1")),
           ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.indigo, // background
+                primary: Colors.green, // background
                 onPrimary: Colors.white, // foreground
               ),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0440");
               }, //Fin onpressed
-              child: const Text("Ejemplo Card y Container")),
+              child: const Text("Ir a Pantalla 2")),
+          ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                primary: Colors.purple, // background
+                onPrimary: Colors.white, // foreground
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_0440");
+              }, //Fin onpressed
+              child: const Text("Ir a Pantalla 3")),
         ], //Fin de niños
       )),
     ); //Fin Scaffold
